@@ -1,0 +1,28 @@
+.jumboTron{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:no-wrap;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.jumboText{
+    flex:1;
+}
+.jumboImage{
+    max-width: 100%;
+    height: auto;
+    margin-right:5rem;
+
+
+}
+@media (max-width: 600px) {
+    .jumboTron{
+      display:block;
+      width:100%;
+    }
+    .jumboImage{
+        display: block;
+        margin:0;
+        width:100%;
+    }
+  }

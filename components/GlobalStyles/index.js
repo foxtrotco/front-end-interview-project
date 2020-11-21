@@ -1,18 +1,25 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-    body {
-        min-height: 100vh;
-        background-color: white;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:sofia-pro;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.content{
+    width:50%;
+    margin:auto;
+}
+@media (max-width: 800px) {
+    .content {
+      width:90%;
     }
-
-    html, body {
-        font-family: sofia-pro, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        margin: 0;
-        padding: 0;
-    }
+  }
 `;
 
 export default GlobalStyles;

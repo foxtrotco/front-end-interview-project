@@ -1,0 +1,22 @@
+.footerContainer {
+    background: #222;
+}
+.footerItem {
+    list-style-type: none;
+    display:inline;
+    margin:1rem;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+}
+.link,.linkIcon {
+    color: white;
+    text-decoration: none;
+}
+.link:hover {
+    opacity: 0.5;
+  }
+  .linkIcon:hover {
+    opacity: 0.5;
+  }
