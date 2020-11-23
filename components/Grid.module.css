@@ -7,7 +7,7 @@
 
 .gridItem{
     min-height:75px;
-    width:24%;
+    width:23%;
     cursor: pointer;;
     margin-top:1.25rem;
     transition: all .2s ease-in-out;
@@ -30,9 +30,21 @@
     color:grey;
     font-size: .8rem;
 }
+.textButton {
+    background:none;
+    border:none;
+    margin:0;
+    margin-top:1rem;
+    padding:0;
+    cursor: pointer;
+
+}
+.textButton:hover{
+    text-decoration: underline;
+}
 @media (max-width: 600px) {
     .gridItem {
-      width:40%;
+      width:47%;
     }
     .gridItem:hover { transform:none; }
 
